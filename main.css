@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  margin: auto 50px;
+}
+
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  width: 600px;
+  height: 600px;
+}
+.square {
+  background-color: #e9f4ff;
+}
+
+.square.dark {
+  background-color: #5d80a4;
+}
+
+.square.red {
+  background-color: red;
+}
+
+.piece {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  z-index: 1;
+}
